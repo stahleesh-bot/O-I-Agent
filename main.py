@@ -10,10 +10,10 @@ import os
 CSV_FILE = "data.csv"
 LOG_FILE = "logs.csv"
 
-FORM_URL = "https://example.com/form"  # <-- replace with your real form URL
+FORM_URL = "https://forms.office.com/Pages/ResponsePage.aspx?id=1Xu4eN-wo06NVeqxu5DEPF248rZ7rzVPhTL29kjDFtlUODRCMkpFSzY0OTJWNlZBTEIwVTlMQzlPRy4u&origin=QRCode"  # <-- replace with your real form URL
 
-EMAIL_FROM = "yourgmail@gmail.com"      # sender Gmail
-EMAIL_TO = "yourgmail@gmail.com"        # receiver Gmail (can be same)
+EMAIL_FROM = "stahleesh@gmail.com"      # sender Gmail
+EMAIL_TO = "sewarnet2050@gmail.com"        # receiver Gmail (can be same)
 EMAIL_PASS = os.environ.get("EMAIL_PASS")  # GitHub secret
 
 # ------------------ LOAD DATA ------------------
