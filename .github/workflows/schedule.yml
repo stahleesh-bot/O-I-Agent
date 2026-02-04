@@ -3,7 +3,7 @@ name: O&I-Agent Scheduler
 on:
   schedule:
     - cron: "17 10 * * *"   # 1:17 PM Qatar time (UTC+3 = 10:17 UTC)
-  workflow_dispatch:        # Allows manual run from GitHub
+  workflow_dispatch:
 
 jobs:
   run:
